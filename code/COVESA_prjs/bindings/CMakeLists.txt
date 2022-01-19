@@ -4,7 +4,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x -Wl,--no-as-needed")
 set(CommonAPI_Version "3.2.0")
 set(vsomeip_Version "3.1.20")
 
-set(RUNTIME_PATH "/home/dad2szh/samba/workspace/OSS")
+set(RUNTIME_PATH "/home/xxx/workspace")
 # set(COMMONAPI_INCLUDE_DIRS "${RUNTIME_PATH}/capicxx-core-runtime/include")
 # set(COMMONAPI_DBUS_INCLUDE_DIRS "${RUNTIME_PATH}/capicxx-dbus-runtime/include")
 # set(COMMONAPI_SOMEIP_INCLUDE_DIRS "${RUNTIME_PATH}/capicxx-someip-runtime/include")
