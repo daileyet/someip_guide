@@ -82,6 +82,7 @@ make
 
 ```shell
 cd ~/workspace && mkdir -p COVESA_prjs/dbus/fidl
+cd COVESA_prjs/dbus/fidl
 vi HelloWorld.fidl
 ```
 
