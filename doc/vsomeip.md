@@ -28,7 +28,8 @@ Download [Boost 1.78.0](https://boostorg.jfrog.io/artifactory/main/release/1.78.
 or clone source code as below:
 
 ```shell
-git clone --b boost-1.78.0 https://github.com/boostorg/boost.git
+git clone -b boost-1.78.0 https://github.com/boostorg/boost.git
+git submodule update --init --recursive -f
 ```
 
 ```shell
@@ -47,7 +48,7 @@ sudo apt-get install asciidoc source-highlight doxygen graphviz
 Donwload vsomeip code
 
 ```shell
-git clone --b 3.1.20.3 https://github.com/COVESA/vsomeip.git
+git clone -b 3.1.20.3 https://github.com/COVESA/vsomeip.git
 ```
 
 ## Compilation
