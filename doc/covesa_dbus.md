@@ -16,7 +16,7 @@ sudo apt install cmake cmake-qt-gui libexpat-dev expat default-jre
 ## 构建CommonAPI Runtime库
 
 ```shell
-git clone --b 3.2.0 https://github.com/GENIVI/capicxx-core-runtime.git
+git clone -b 3.2.0 https://github.com/GENIVI/capicxx-core-runtime.git
 ```
 
 构建CommonAPI Runtime库不需要任何外部依赖:
